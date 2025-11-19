@@ -1,0 +1,62 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 204 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.48.143:3000/
+10:48:28 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Narrative.jsx:47:150: ERROR: Expected "}" but found "]"
+10:48:29 AM [vite] ✨ new dependencies optimized: @splinetool/react-spline
+10:48:29 AM [vite] ✨ optimized dependencies changed. reloading
+10:48:29 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Narrative.jsx:47:150: ERROR: Expected "}" but found "]"
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+10:48:30 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Narrative.jsx:47:150: ERROR: Expected "}" but found "]"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Narrative.jsx:47:150
+  
+  Expected "}" but found "]"
+  45 |        setStory(st => ([...st, 'You climb the emergency stairs. The door sticks. The sky bends like heated glass.']))
+  46 |      } else if (id === 'cafeteria') {
+  47 |        setState(s => ({ ...s, location: 'Cresthaven • Cafeteria', keyRel: 'Kael: Rivalry++', flags: ['Eyes On You'], urgency: 'Duel rumors spreading'] }))
+     |                                                                                                                                                        ^
+  48 |        setStory(st => ([...st, 'The cafeteria hums. Conversations splice like jump cuts. Kael waits with a grin that could cut wire.']))
+  49 |      } else if (id === 'archive') {
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+10:48:57 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Narrative.jsx:47:150: ERROR: Expected "}" but found "]"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Narrative.jsx:47:150
+  
+  Expected "}" but found "]"
+  45 |        setStory(st => ([...st, 'You climb the emergency stairs. The door sticks. The sky bends like heated glass.']))
+  46 |      } else if (id === 'cafeteria') {
+  47 |        setState(s => ({ ...s, location: 'Cresthaven • Cafeteria', keyRel: 'Kael: Rivalry++', flags: ['Eyes On You'], urgency: 'Duel rumors spreading'] }))
+     |                                                                                                                                                        ^
+  48 |        setStory(st => ([...st, 'The cafeteria hums. Conversations splice like jump cuts. Kael waits with a grin that could cut wire.']))
+  49 |      } else if (id === 'archive') {
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
